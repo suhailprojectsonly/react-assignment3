@@ -40,7 +40,7 @@ export default function Navbar() {
                 className={classes.PhoneInTalkIconAdjust}
               />
               <Link href="#" class="TypographyAdjust">
-                1-800-579-3950
+                1-800-579-3850
               </Link>
               {"  "}
               <MailOutlineIcon className={classes.MailOutlineIconAdjust, "ml-2"} />
