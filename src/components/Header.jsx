@@ -41,7 +41,7 @@ class Header extends Component {
               </li>
               <li>
                 <a href="#">
-                  <span class="linkfont">Contact us</span>
+                  <span class="linkfont">Contact Us</span>
                 </a>
               </li>
               <li>
