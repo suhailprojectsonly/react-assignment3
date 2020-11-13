@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "fontsource-roboto";
 
-
 class Content extends Component {
   render() {
     return (
@@ -15,8 +14,8 @@ class Content extends Component {
             et ea rebum. Stet clita kasd
           </p>
         </div>
-        <div  class="row"> 
-          <div class="col-sm-9"> 
+        <div class="row">
+          <div class="col-sm-9">
             <img
               src="/images/image1.png"
               alt="image1"
@@ -24,29 +23,30 @@ class Content extends Component {
             />
           </div>
 
-          <div class="col-sm-3"> 
-          <div class="side-box1 mt-3 ">
-            <h5 class="sidebarHeader">Subscribe to our news Letter</h5>
-            <p class="sidebarpara">Get the latest update and news</p>
-
-            <div>
-              <form>
-                <input
-                  type="email"
-                  placeholder="Enter email address"
-                  class="col-sm-12"
-                
-                />
-                <br />
-                <div style={{ paddingTop: "10px" }}>
-                  <button type="button" class="btn btn-primary col-sm-12">
-                    SignUp
-                  </button>
-                </div>
-              </form>
+          <div class="col-sm-3">
+            <div class="side-box1 mt-3 ">
+              <div class="pt-4">
+              <h5 class="sidebarHeader">Subscribe to our news Letter</h5>
+              <p class="sidebarpara">Get the latest update and news</p>
+              <div>
+                <form>
+                  <input
+                    type="email"
+                    placeholder="Enter email address"
+                    class="col-sm-12"
+                  />
+                  <br />
+                  <div style={{ paddingTop: "10px" }}>
+                    <button type="button" class="btn btn-primary col-sm-12">
+                      SignUp
+                    </button>
+                  </div>
+                </form>
+              </div>
+              </div>
             </div>
-</div>
             <div class="side-box2">
+              <div class="pt-3">
               <h5 class="sidebarHeader">Master your cashflow</h5>
               <p class="sidebarpara">
                 A little planning goes a long way. Get tips and guidance on
@@ -55,6 +55,7 @@ class Content extends Component {
               <button type="button" class="btn btn-primary">
                 Get Your Guide
               </button>
+            </div>
             </div>
           </div>
         </div>

@@ -39,13 +39,14 @@
 widows: 50%;
 }
 
+.icon-button-adjust{
+    margin-top: 39px;}
 
 .MuiIconButton-label {
   /* margin: 20px; */
   width: 100%;
   margin-top: 20px;
   display: flex;
-  padding: -;
   align-items: inherit;
   justify-content: inherit;
 }
@@ -107,8 +108,7 @@ widows: 50%;
   border: 1px solid #d9dede;
   border-radius: 4px;
   opacity: 1;
-
-  border-top: 3px solid #311c52;
+  border-top: 6px solid #311c52;
   padding: 10px;
   margin-bottom: 27px;
 }
@@ -122,8 +122,7 @@ widows: 50%;
   border: 1px solid #d9dede;
   border-radius: 4px;
   opacity: 1;
-  border-top: 3px solid #c0ae09;
-
+  border-top: 6px solid #c0ae09;
   padding: 10px;
   margin-bottom: 27px;
 }

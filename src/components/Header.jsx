@@ -108,49 +108,63 @@ export default function PrimarySearchAppBar() {
         <IconButton  color="inherit">
             <HomeIcon/>
         </IconButton>
+        <div class="icon-button-adjust">
         <p>Home</p>
+        </div>
       </MenuItem>
 
       <MenuItem>
         <IconButton color="inherit"> 
             <InfoIcon />
         </IconButton>
+        <div class="icon-button-adjust">
         <p>About</p>
+        </div>
       </MenuItem>
 
       <MenuItem>
         <IconButton color="inherit"> 
             <HttpIcon />
         </IconButton>
+        <div class="icon-button-adjust">
         <p>Insight</p>
+        </div>
       </MenuItem>
 
       <MenuItem>
         <IconButton color="inherit"> 
             <SettingsApplicationsIcon/>
         </IconButton>
+        <div class="icon-button-adjust">
         <p>Service</p>
+        </div>
       </MenuItem>
 
       <MenuItem>
         <IconButton color="inherit"> 
             < EmojiEventsTwoToneIcon/>
         </IconButton>
+        <div class="icon-button-adjust">
         <p>Events</p>
+        </div>
       </MenuItem>
 
       <MenuItem>
         <IconButton color="inherit"> 
             < ContactMailIcon/>
         </IconButton>
+        <div class="icon-button-adjust">
         <p>ContactUs</p>
+        </div>
       </MenuItem>
 
       <MenuItem>
         <IconButton color="inherit"> 
             < SearchIcon/>
         </IconButton>
+        <div class="icon-button-adjust">
         <p>Search</p>
+        </div>
       </MenuItem>
       
     </Menu>
