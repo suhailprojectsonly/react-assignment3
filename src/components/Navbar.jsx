@@ -19,10 +19,8 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   customizeToolbar: {
-   height:'36px',
-  }
-  
- 
+    height: "36px",
+  },
 }));
 
 export default function Navbar() {
@@ -32,10 +30,9 @@ export default function Navbar() {
     <div className={classes.root}>
       <AppBar className={classes.customizeToolbar}>
         <Toolbar>
-          <div class="row col-sm-12">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-1"></div>
-            <div class="col-sm-4 pb-4">
+          <div class="row col-sm-12">            
+            <div class="col-sm-6">
+              <div class="colAdjust pb-4">
               <PhoneInTalkOutlinedIcon
                 className={classes.PhoneInTalkIconAdjust}
               />
@@ -43,18 +40,22 @@ export default function Navbar() {
                 1-800-579-3150
               </Link>
               {"  "}
-              <MailOutlineIcon className={classes.MailOutlineIconAdjust, "ml-2"} />
+              <MailOutlineIcon
+                className={(classes.MailOutlineIconAdjust, "ml-2")}
+              />
               <Link href="#" class="TypographyAdjust">
                 info@covenantwealth.ca
               </Link>
+              </div>
             </div>
 
-            <div class="col-sm-1">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-4, hideMobile">
+              {" "}
+              <span class="mr-4 navpara">IndivitualFamily</span> |{" "}
+              <span class="ml-4 navpara">Business</span>
             </div>
-            <div class="col-sm-1">
-            </div>
-            <div class="col-sm-4"> <span class="mr-4 navpara">IndivitualFamily</span> | <span class="ml-4 navpara">Business</span>
-  </div>
           </div>
         </Toolbar>
       </AppBar>

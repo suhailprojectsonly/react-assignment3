@@ -25,7 +25,7 @@ class Content extends Component {
           </div>
 
           <div class="col-sm-3"> 
-          <div class="side-box1">
+          <div class="side-box1 mt-3 ">
             <h5 class="sidebarHeader">Subscribe to our news Letter</h5>
             <p class="sidebarpara">Get the latest update and news</p>
 
